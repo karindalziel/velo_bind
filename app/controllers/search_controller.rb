@@ -4,7 +4,8 @@ def index
 end
 
 def search
-  render plain: (DplApi.new.search(params[:search_text]))
+  json = JSON.parse(DplApi.new.search(params[:search_text]))
+  render "<img src='#{json.object}'>"
 end
 
 end

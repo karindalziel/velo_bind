@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root 'search#index'
   get 'search' => 'search#search'
-  get 'index' => 'search#index'
+  post '/' => 'search#index'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
