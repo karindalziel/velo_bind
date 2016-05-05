@@ -1,0 +1,8 @@
+Base url: 
+http://api.dp.la/v2/items?q={{{Thing goes here}}}&api_key=b8f3057f7527a5248ff65e41ff9e9e7f
+
+List of queries:
+
+surrealist
+
+
